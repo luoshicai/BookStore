@@ -1,0 +1,5 @@
+# BookStore
+My EBookstore
+在2022年一年的时间里，在软院老师的带领下，我逐步实现了一个完整的Bookstore项目
+其中bookstore3目录下是react的前端
+demo1下是spring写的后端
