@@ -1,0 +1,106 @@
+.header{
+    background: #7BA7AB;
+    width: 100%;
+    height: 110px;
+}
+#header-title{
+    float: left;
+    font-family: 微软雅黑;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #324b4e;
+    border-radius: 50%;
+    margin: auto;
+}
+#circle1{
+    position: absolute;
+    top:15px;
+    right:700px;
+    background: #F9F0DA;
+}
+.circle-content{
+    position: absolute;
+    top:-25px;
+    left: 16px;
+    font-size: 30px;
+}
+#circle2{
+    position: absolute;
+    top:15px;
+    right:500px;
+}
+#circle3{
+    position: absolute;
+    top:15px;
+    right: 300px;
+}
+#circle4{
+    position: absolute;
+    top:15px;
+    right: 100px;
+}
+.circle-line{
+    border: 2px solid #324b4e;
+    width: 140px;
+}
+#circle-line1{
+    position: absolute;
+    top: 40px;
+    right: 555px;
+}
+#circle-line2{
+    position: absolute;
+    top:40px;
+    right: 355px;
+}
+#circle-line3{
+    position: absolute;
+    top: 40px;
+    right: 155px;
+}
+.circle-text{
+    position: absolute;
+    top:40px;
+}
+#circle-text1{
+    width: 64px;
+    left: -5px;
+}
+#circle-text2{
+    left:10px;
+}
+#circle-text3{
+    width: 64px;
+    left: -5px;
+}
+#circle-text4{
+    left:10px;
+}
+
+.address{
+    padding-top:30px;
+    padding-left: 20px;
+}
+.order{
+    padding-top: 130px;
+    padding-left: 20px;
+}
+
+.submit{
+    right: 0;
+}
+.submit-button{
+    position: relative;
+    left: 1200px;
+    width: 100px;
+    height: 50px;
+}
+
+.order-background{
+    background: #F9F0DA;
+    height: 800px;
+}

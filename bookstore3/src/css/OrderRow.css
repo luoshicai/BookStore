@@ -1,0 +1,43 @@
+.order-card{
+    left:50px;
+    width: 1300px;
+    height: 200px;
+    background: #F9F0DA;
+    float: left;
+    border: 1px solid #9fabab;
+}
+
+.order-card:hover{
+    border: 2px solid #61dafb;
+}
+
+.order-num{
+    float: left;
+    padding-top: 80px;
+    width: 100px;
+    padding-left: 270px;
+    word-wrap:break-word;
+    font-size: 20px;
+}
+
+.order-state{
+    float: left;
+    padding-top: 80px;
+    width: 100px;
+    padding-left: 185px;
+    word-wrap:break-word;
+}
+
+.order-price{
+    float: left;
+    padding-top: 80px;
+    width: 100px;
+    padding-left: 210px;
+    word-wrap:break-word;
+}
+
+.order-operation{
+    float: left;
+    padding-top: 80px;
+    padding-left: 190px;
+}

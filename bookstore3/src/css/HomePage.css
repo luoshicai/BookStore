@@ -1,0 +1,303 @@
+
+.home-header-base{
+    width: 1440px;
+    height: 80px;
+    background: #7BA7AB;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+
+.home_menu{
+    background: bisque;
+    width: 160px;
+    height: 760px;
+    position: fixed;
+    top:80px
+}
+
+.home_content{
+    width: 1270px;
+    float: right;
+    background: #F9F0DA;
+    height: 4000px;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+.SearchBar-type:focus{
+    width: 300px;
+}
+.SearchBar-type{
+    width: 250px;
+    height: 40px;
+    border-radius: 42px;
+    border:2px solid #324b4e;
+    background: #F9F0DA;
+    transition:.3s linear;
+}
+
+.SearchBar-position{
+    top: 15px;
+    right:670px;
+    position: fixed;
+}
+#SearchBar-button{
+    background: none;
+    border: none;
+    height: 45px;
+    position: fixed;
+    left: 720px;
+}
+#header-base-tittle{
+    position: fixed;
+    top: -5px;
+    left: 30px;
+}
+
+.FunctionIcon-fa-type{
+    position: fixed;
+    font-size: 40px;
+    top: 10px;
+}
+
+.FunctionIcon-type{
+    width:50px;
+    height: 80px;
+    margin-left: 30px;
+    background: none;
+    border: none;
+}
+
+.FunctionIcon-text-type{
+    font-size: 16px;
+    position: fixed;
+    top: 60px;
+    text-align: center;
+}
+
+.FunctionIcon-position{
+    left: 1230px;
+    position: fixed;
+}
+
+.menu-icon{
+    font-size: 20px;
+    position: fixed;
+    top: 100px;
+    left: 40px;
+}
+
+.menu-text{
+    font-size: 18px;
+    position: fixed;
+    top: 101px;
+    left: 70px;
+}
+
+.recommend-size{
+    float: left;
+    position: absolute;
+    left: 250px;
+    top: 120px;
+    height: 360px;
+    width: 1100px;
+    background: #F9F0DA;
+}
+
+#tab{
+    float: left;
+    background: #57AEAB;
+    height: 360px;
+    width: 282px;
+    z-index: 0;
+}
+
+#tab-tittle-text{
+    padding-top: 20px;
+    font-size: 24px;
+    color: white;
+    line-height: 26px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.tab-stick{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 250px;
+    position: absolute;
+    left: 31px;
+    top:140px;
+    background: white;
+    height: 160px;
+    z-index: 1;
+}
+
+#tab-stick1{
+
+    left: 0;
+    width: 100%;
+    height: 70px;
+    font-size:18px;
+    line-height: 70px;
+    text-indent: 20px;
+}
+
+#tab-stick2{
+    height: 70px;
+    font-size:18px;
+    line-height: 70px;
+    text-indent: 20px;
+}
+
+#tab-division{
+    height: 20px;
+    background: #57AEAB;
+}
+
+.tab-stick-selected{
+    background: white;
+    color: #57AEAB;
+}
+.tab-stick-unselected{
+    background: #5FA1AB;
+    color: white;
+}
+
+.RefreshButton-type{
+    width: 40px;
+    height: 100px;
+    background: white;
+}
+
+.RefreshButton-fa-type{
+    font-size: 20px;
+    position: absolute;
+    margin: 0;
+    left: 0;
+    width: 40px;
+    height: 100px;
+}
+
+
+#recommend-refresh-button{
+    float: right;
+    position: absolute;
+    right: 34px;
+    top: 0;
+}
+
+.RefreshButton-text-type{
+    padding-top: 20px;
+}
+
+#category-table{
+    position: absolute;
+    top: 550px;
+    left: 250px;
+    width: 1100px;
+}
+.row-width{
+    width: 1100px;
+}
+.categoryRow-button{
+    position: relative;
+    left: 950px;
+    bottom: 0;
+}
+
+.category-show1{
+    height: 602px;
+    width: 1100px;
+    background: white;
+    z-index: 11;
+}
+
+.li0{
+    border: 1px solid #9fabab;
+    width: 220px;
+    height: 300px;
+    border-collapse: collapse;
+}
+
+.li0:hover{
+    border: 2px solid #61dafb;
+    width: 220px;
+    height: 300px;
+}
+
+.li4{
+    border-collapse: collapse;
+}
+
+.card-img-type{
+    width: 180px;
+    height: 200px;
+    padding-left:20px;
+    padding-top: 10px;
+}
+.card-img-type-over{
+    width: 180px;
+    height: 200px;
+    padding-left:30px;
+    padding-top: 10px;
+}
+.card-text-type{
+    text-align: center;
+}
+
+.card-price-type{
+    text-align: center;
+    color: red;
+}
+
+.menuTable-type{
+    position: relative;
+    top: 120px;
+    width: 160px;
+}
+
+.menu-stick{
+    width: 160px;
+    height:60px;
+    text-align: center;
+}
+
+.menu-stick:hover{
+    background: white;
+}
+.menu-stick.active{
+    background: #61dafb;
+}
+
+.menu-stick-type{
+    position: relative;
+    padding-top: 30px;
+}
+
+.menu-stick-text{
+    position: relative;
+    padding-top: 20px;
+}
+
+
+.LogIn-Icon{
+    float: left;
+    position: relative;
+    right: -70px;
+}
+
+.Chart-Icon{
+    float: left;
+    position: relative;
+    right: 100px;
+}
+
+
+.Order-Icon{
+    float: left;
+    position: relative;
+    right: 115px;
+}

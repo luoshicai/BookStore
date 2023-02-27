@@ -1,0 +1,43 @@
+
+.li0{
+    border: 1px solid #9fabab;
+    width: 220px;
+    height: 300px;
+    border-collapse: collapse;
+}
+
+.li0:hover{
+    border: 2px solid #61dafb;
+    width: 220px;
+    height: 300px;
+}
+
+.li4{
+    border-collapse: collapse;
+}
+
+.card-img-type{
+    width: 180px;
+    height: 200px;
+    padding-left:20px;
+    padding-top: 10px;
+}
+.card-img-type-over{
+    width: 180px;
+    height: 200px;
+    padding-left:30px;
+    padding-top: 10px;
+}
+.card-text-type{
+    text-align: center;
+}
+
+.card-price-type{
+    text-align: center;
+    color: red;
+}
+
+.browse-filtered-content-position{
+    position: relative;
+    top: 40px;
+}

@@ -1,0 +1,61 @@
+.browse-header{
+    width: 1440px;
+    height: 80px;
+    background: #7BA7AB;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+
+.browse-content{
+    width:100%;
+    background: #F9F0DA;
+    height: 1000px;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+#header-base-tittle{
+    position: fixed;
+    top: -5px;
+    left: 30px;
+}
+
+.browse-search{
+    border: 1px solid #9fabab;
+    width: 800px;
+    height: 150px;
+}
+
+.browse-search-position{
+    position: relative;
+    left: 150px;
+}
+
+.browse-searchBar-position{
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+.browse-searchBar-text{
+    width: 300px;
+    height: 30px;
+}
+
+.browse-searchBar-submit{
+    height: 34px;
+}
+
+.browse-filter-position{
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+.box-margin{
+    padding-left: 10px;
+}
+
+.MoreToHome{
+    position: absolute;
+
+}

@@ -1,0 +1,77 @@
+.header-base{
+    width: 1440px;
+    height: 80px;
+    background: #7BA7AB;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+
+.menu{
+    background: bisque;
+    width: 200px;
+    height: 760px;
+    position: fixed;
+    top:80px
+}
+
+.CBooks{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    top: 80px;
+}
+
+.CBooks:hover{
+    background: white;
+}
+
+.CUsers{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    top: 80px;
+}
+
+.CUsers:hover{
+    background: white;
+}
+
+.COrders{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    top: 80px;
+}
+
+.COrders:hover{
+    background: white;
+}
+
+.CBooks-text{
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+.CUsers-text{
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+.COrders-text{
+    position: relative;
+    text-align: center;
+    top:20px;
+}
+
+.Rcontent{
+    width: 1300px;
+    float: right;
+    background: white;
+    height: 1000px;
+    padding-top: 80px;
+}
+
+
